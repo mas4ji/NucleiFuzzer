@@ -36,7 +36,7 @@ excluded_extentions="png,jpg,gif,jpeg,swf,woff,svg,pdf,json,css,js,webp,woff,wof
 # Check if ParamSpider is already cloned and installed
 if [ ! -d "$home_dir/ParamSpider" ]; then
     echo "Cloning ParamSpider..."
-    git clone https://github.com/0xKayala/ParamSpider "$home_dir/ParamSpider"
+    git clone https://github.com/mas4ji/ParamSpider "$home_dir/ParamSpider"
 fi
 
 # Check if nuclei fuzzing-templates are already cloned.
